@@ -2,33 +2,46 @@
   /* max-width: 1280px; */
   margin: 0 auto;
   /* padding: 2rem; */
-  text-align: left;width: 100vw;
+  text-align: left;
+  width: 100vw;
   
   
   
 }
+
+
 
 .border{
   border: solid;
   border-color: #ffffff;
   border-width: 1px;
-  padding: 5px;
+  
   border-radius: 7px;
- 
-  width: 45%;
+  
+  padding: 5px;
+  width: 44%;
   background-color: #313131;
+  margin: 5px;
   
-  
+  padding-bottom: 30px;
+
+   display: inline;
   
 }
 
 .border.About{
   float: left;
-  margin-left: 50px;
+  margin-left: 45px;
+  padding-left: 20px;
+  padding-right: 20px;
+  
+  text-align: justify;
+  
 }
 .border.Contact{
   float: right;
-  margin-right: 50px;
+  margin-right: 45px;
+  
 }
 
 

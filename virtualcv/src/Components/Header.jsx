@@ -8,6 +8,10 @@ export default function Header(props){
             <h2 style={{"font-style": props.font,fontWeight: "normal"}}>
                 Junior developer
             </h2>
+            
+            
+           
         </header>
+        
     )
 }
