@@ -1,7 +1,7 @@
 export default function About() {
   return (
     
-    <div class="rounded-md  bg-[#d6e6f2] max-w-4xl mx-auto px-4 place-self-center my-10 text-justify">
+    <div class="rounded-md  bg-[#d6e6f2] max-w-5xl mx-auto p-4 place-self-center mt-10 mb-5 text-justify">
       <h3 class="text-3xl font-bold text-center pb-2"> About me </h3>
       <div class="space-y-4">
         <p>

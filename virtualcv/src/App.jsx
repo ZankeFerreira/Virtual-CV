@@ -5,6 +5,7 @@ import "./App.css";
 import Header from "./Components/Header";
 import About from "./Components/About";
 import CV from "./Components/CV";
+import Projects from "./Components/Projects.jsx";
 
 function App() {
   return (
@@ -15,6 +16,8 @@ function App() {
         <About />
 
         <CV />
+
+        <Projects/>
       </div>
     </>
   );
