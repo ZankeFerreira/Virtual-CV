@@ -1,9 +1,9 @@
 export default function Projects() {
   return (
-    <div class="bg-[#b9d7ea] max-w-5xl mx-auto p-1   rounded-md ">
+    <div class="bg-[#d6e6f2]  p-1 pb-4 rounded-md mb-7">
       <h1 class="text-4xl font-bold text-center pb-5 mt-3"> Projects</h1>
       <div class="flex md:flex-row flex-col max-w-5xl mx-auto px-4 ">
-        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#cce1f1] border-[#34495e]">
+        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e]">
           <p class="font-semibold"> Messaging app </p>
 
           <div class="space-y-4">
@@ -24,7 +24,7 @@ export default function Projects() {
               within desktop applications.{" "}
             </p>
 
-            <button class="font">
+            <button class="text-[#FAF9F6]">
               <a
                 href="https://github.com/ZankeFerreira/CMPG315_GroupProject-Texting-App"
                 target="_blank"
@@ -35,11 +35,11 @@ export default function Projects() {
           </div>
         </div>
 
-        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#cce1f1] border-[#34495e]">
+        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e]">
           <p class="font-semibold"> Business Operations Simulation </p>
 
           <div class="space-y-4">
-            <p> CMPG 213 - System Analysis </p>
+            <p> CMPG 213 - Systems Analysis and Design </p>
 
             <p>
               I led a business operations simulation project, where I worked on
@@ -55,7 +55,7 @@ export default function Projects() {
               interfaces for data interaction.
             </p>
 
-            <button class="">
+            <button class="text-[#FAF9F6]">
               <a
                 href="https://github.com/ZankeFerreira/CMPG213_Project"
                 target="_blank"

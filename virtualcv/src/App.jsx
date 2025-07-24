@@ -17,7 +17,7 @@ function App() {
 
         <CV />
 
-        <Projects/>
+        <Projects />
       </div>
     </>
   );
