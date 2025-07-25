@@ -3,10 +3,10 @@ export default function Projects() {
     <div class="bg-[#d6e6f2]  p-1 pb-4 rounded-md mb-7">
       <h1 class="text-4xl font-bold text-center pb-5 mt-3"> Projects</h1>
       <div class="flex md:flex-row flex-col max-w-5xl mx-auto px-4 ">
-        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e]">
+        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e] flex flex-col">
           <p class="font-semibold"> Messaging app </p>
 
-          <div class="space-y-4">
+          <div class="space-y-4 flex-grow">
             <p> CMPG 315 - Computer Networks </p>
 
             <p>
@@ -24,7 +24,9 @@ export default function Projects() {
               within desktop applications.{" "}
             </p>
 
-            <button class="text-[#FAF9F6]">
+            
+          </div>
+          <button class="text-[#FAF9F6] mt-4 w-fit">
               <a
                 href="https://github.com/ZankeFerreira/CMPG315_GroupProject-Texting-App"
                 target="_blank"
@@ -32,13 +34,12 @@ export default function Projects() {
                 View Github
               </a>
             </button>
-          </div>
         </div>
 
-        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e]">
+        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e] flex flex-col">
           <p class="font-semibold"> Business Operations Simulation </p>
 
-          <div class="space-y-4">
+          <div class="space-y-4 flex-grow">
             <p> CMPG 213 - Systems Analysis and Design </p>
 
             <p>
@@ -55,7 +56,9 @@ export default function Projects() {
               interfaces for data interaction.
             </p>
 
-            <button class="text-[#FAF9F6]">
+           
+          </div>
+           <button class="text-[#FAF9F6] mt-4 w-fit">
               <a
                 href="https://github.com/ZankeFerreira/CMPG213_Project"
                 target="_blank"
@@ -63,41 +66,37 @@ export default function Projects() {
                 View Github
               </a>
             </button>
+        </div>
+
+        <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#b9d7ea] border-[#34495e] flex flex-col">
+          <p class="font-semibold"> Virtual CV </p>
+
+          <div class="space-y-4 flex-grow">
+            <p> CMPG 323 - IT Development</p>
+
+            <p>
+              I developed this virtual
+              CV website to showcase my technical skills through a fully
+              custom-built solution. The project focused on front-end
+              development using React and Tailwind CSS, emphasizing
+              component-based design and responsive layout techniques.
+            </p>
+
+            <p>
+              Throughout the process, I gained hands-on experience in translating content into an intuitive user interface, managing state efficiently, and optimizing performance for different screen sizes. The goal was not only to present my background but also to demonstrate my ability to design and build a complete, user-friendly web application from the ground up.
+            </p>
+
+           
           </div>
+           <button class="text-[#FAF9F6] mt-4 w-fit">
+              <a
+                href="https://github.com/ZankeFerreira/Virtual-CV"
+                target="_blank"
+              >
+                View Github
+              </a>
+            </button>
         </div>
-
-        {/* <div class="flex-1 border-1 m-2 rounded-md  pt-2 px-5 pb-5 bg-[#cce1f1] border-[#34495e]">
-        <p class="font-semibold"> Business Operation Development </p>
-
-        <div class="space-y-4">
-          <p> CMPG 311 - Databases</p>
-
-          <p>
-            As part of an enterprise system development project, I worked on
-            simulating end-to-end business processes using an Oracle Database.
-            This involved designing and implementing database structures to
-            support core operations such as customer management, inventory
-            control, order processing, and reporting.
-          </p>
-
-          <p>
-             The project provided
-            hands-on experience with SQL and data modeling, while
-            deepening my understanding of how enterprise-level systems support
-            complex workflows and ensure data integrity across various business
-            functions.
-          </p>
-
-          <button class="font">
-            <a
-              href="https://github.com/ZankeFerreira/CMPG213_Project"
-              target="_blank"
-            >
-              View Github
-            </a>
-          </button>
-        </div>
-      </div> */}
       </div>
     </div>
   );
