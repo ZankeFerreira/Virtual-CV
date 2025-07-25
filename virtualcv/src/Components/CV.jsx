@@ -3,9 +3,9 @@ export default function CV() {
     <div class="flex md:flex-row flex-col max-w-5xl mx-auto px-4 ">
       <div class="flex-1  m-5 rounded-md pt-2 px-5 pb-5 bg-[#d6e6f2]">
         <h3 class="text-2xl font-bold text-center"> Skills </h3>
-        <ul class="list-disc pl-5">
+        <ul class="list-disc pl-5 text-base/8 ">
           <li>
-            Python, C#, C/C++ and Java
+            Python, C# and Java
             <li>Communication</li>
             <li>Project Management</li>
             <li>Critical Thinking</li>
@@ -14,7 +14,7 @@ export default function CV() {
         </ul>
       </div>
       <div class="flex-1 m-5 rounded-md  pt-2 px-5 pb-5 bg-[#d6e6f2]">
-        <h3 class="text-2xl font-bold text-center"> Experience </h3>
+        <h3 class="text-2xl mb-1 font-bold text-center"> Experience </h3>
         <p class="font-semibold">Student Assistant – Programming Support </p>
 
         <div class="space-y-4">
